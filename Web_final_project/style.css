@@ -1,0 +1,12 @@
+/*
+Theme Name: Web final project
+Version: 0.1
+Text Domain: final
+*/
+html {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}

@@ -1,0 +1,123 @@
+.pricing_plan_block {
+    background: #f0f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pp_top_text {
+    margin-top: 80px;
+    width: 80%;
+    text-align: center;
+}
+
+.pp_top_text h1 {
+    font-size: 24px;
+}
+
+.pp_top_text p {
+    color: #212121;
+    font-size: 12px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.pp_blocks_cont {
+    width: 80%;
+    margin-top: 80px;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.pp_block {
+    overflow: hidden;
+    position: relative;
+    margin: 0 20px;
+    flex-basis: 30%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.pp_block:before {
+    content: "";
+    position: absolute;
+    background-color: #3949ab;
+    left: -10px;
+    top: -85px;
+    width: 500px;
+    height: 200px;
+    transform: skew(-5deg, -5deg);
+}
+
+.text_pp_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_pp_block p {
+    color: #3f3f3f;
+    width: 50%;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 0 15px 10px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.pp_block a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 1px solid #303030;
+    border-top: 2px solid #303030;
+    text-decoration: none;
+    color: #303030;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.pp_block a:hover {
+    background: #00897b;
+    color: white;
+    border-color: #00897b;
+}
+
+.pp_block h4 {
+    margin-top: 15px;
+    font-weight: normal;
+    line-height: 1em;
+    letter-spacing: 0.025em;
+    position: relative;
+    color: #fff;
+    font-size: 26px;
+}
+
+.bigg {
+    position: relative;
+    color: #fff;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.bigg span {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 0.025em;
+}
+
+.pp_block:nth-child(2) {
+    box-shadow: 0 5px 15px #000;
+}
+
+@media (max-width: 700px) {
+    .pp_block {
+        margin: 15px 0;
+        flex-basis: 60%;
+    }
+
+    .service_block {
+        flex-basis: 60%;
+    }
+}

@@ -1,0 +1,106 @@
+@import 'team_block.css';
+@import 'pricing_block.css';
+@import 'header_block.css';
+@import 'about_block.css';
+@import 'menu_block.css';
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansItalic";
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot");
+    src: url("../fonts/OpenSansItalic/OpenSansItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"),
+    url("../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+    url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, h4, h1, a, input, span, h3 {
+    font-family: OpenSans, sans-serif;
+}
+
+h2 {
+    font-family: OpenSansBold, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.carousel-item {
+    height: 600px !important;
+}
+
+
+@media (max-width: 1000px) {
+    .service_block {
+        flex-basis: 40%;
+    }
+
+    .about_us {
+        flex-wrap: wrap;
+    }
+
+    .func {
+        flex-basis: 50%;
+    }
+
+    .pp_blocks_cont {
+        flex-wrap: wrap;
+    }
+
+    .pp_block {
+        margin: 15px 0;
+        flex-basis: 51%;
+    }
+
+    .member {
+        flex-basis: 51%;
+    }
+}
+
